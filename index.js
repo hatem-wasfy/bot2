@@ -1,4 +1,3 @@
-<script>
   
 const express = require('express')
 const bodyParser = require('body-parser')
@@ -54,4 +53,3 @@ app.post('/webhook', function (req, res) {
 app.listen(app.get('port'), function () {
   console.log('* Webhook service is listening on port:' + app.get('port'))
 })
-</script>
